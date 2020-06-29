@@ -1,9 +1,12 @@
 package nix;
 
+import nix.data.Patient;
+import nix.service.DoctorService;
+
 public class Main {
 
     public static void main(String[] args) {
-        Doctor doctor = new Doctor();
-        doctor.startAppointment(new Patient());
+        DoctorService doctorService = new DoctorService();
+        doctorService.startAppointment(new Patient());
     }
 }

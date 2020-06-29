@@ -1,4 +1,4 @@
-package nix;
+package nix.data;
 
 public class Patient {
 }

@@ -1,6 +1,8 @@
-package nix;
+package nix.service;
 
-public class Cabinet {
+import nix.exception.CabinetException;
+
+public class CabinetService {
 
     private boolean existCabinet = true;
 
