@@ -1,8 +1,12 @@
 package nix.config;
 
 import nix.config.impl.JavaApplicationConfiguration;
+import nix.service.CabinetService;
+import nix.service.impl.WorkProcessServiceImpl;
 
 import java.lang.reflect.InvocationTargetException;
+import java.util.HashMap;
+import java.util.Map;
 
 public class ObjectFactory {
     //цель фабрики - самой понимать какую имплементацию использовать для нового интерфейса
@@ -10,7 +14,8 @@ public class ObjectFactory {
     private ApplicationConfiguration config;
 
     private ObjectFactory(){
-        config = new JavaApplicationConfiguration("nix");
+        config = new JavaApplicationConfiguration("nix",
+                new HashMap<>(Map.of(CabinetService.class, WorkProcessServiceImpl.class)));
     }
 
     public static ObjectFactory getInstance(){
