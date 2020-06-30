@@ -3,9 +3,9 @@ package nix.service.impl;
 import nix.data.Patient;
 import nix.service.CabinetService;
 import nix.service.DoctorResponsibilityService;
-import nix.service.DoctorResponsibilityServiceImpl;
+import nix.service.DoctorService;
 
-public class DoctorServiceImpl {
+public class DoctorServiceImpl implements DoctorService <Patient> {
 
     private CabinetService cabinetService = new CabinetServiceImpl();
     private DoctorResponsibilityService doctorResponsibilityService = new DoctorResponsibilityServiceImpl();

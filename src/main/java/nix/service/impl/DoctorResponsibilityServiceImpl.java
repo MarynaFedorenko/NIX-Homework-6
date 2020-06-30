@@ -1,8 +1,9 @@
-package nix.service;
+package nix.service.impl;
 
 import nix.data.Patient;
+import nix.service.DoctorResponsibilityService;
 
-public class DoctorResponsibilityServiceImpl  implements DoctorResponsibilityService{
+public class DoctorResponsibilityServiceImpl  implements DoctorResponsibilityService {
     @Override
     public void startResponsibility(Patient patient){
         System.out.println("Дожидается пациента");
