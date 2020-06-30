@@ -1,5 +1,6 @@
 package nix.service.impl;
 
+import nix.config.ObjectFactory;
 import nix.data.Patient;
 import nix.service.CabinetService;
 import nix.service.DoctorResponsibilityService;
@@ -7,8 +8,8 @@ import nix.service.DoctorService;
 
 public class DoctorServiceImpl implements DoctorService <Patient> {
 
-    private CabinetService cabinetService = new CabinetServiceImpl();
-    private DoctorResponsibilityService doctorResponsibilityService = new DoctorResponsibilityServiceImpl();
+    private CabinetService cabinetService = ObjectFactory.getInstance().createObject(CabinetService.class);
+    private DoctorResponsibilityService doctorResponsibilityService = ObjectFactory.getInstance().createObject(DoctorResponsibilityService.class);
 
     public void startAppointment(Patient patient){
         cabinetService.isExist();
