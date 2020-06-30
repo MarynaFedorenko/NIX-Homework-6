@@ -4,6 +4,8 @@ import nix.annotation.Value;
 import nix.service.WorkEnvironmentService;
 
 public class WorkEnvironmentServiceImpl implements WorkEnvironmentService {
+
+    //@Value("idea")
     @Value
     private String ide;
 
