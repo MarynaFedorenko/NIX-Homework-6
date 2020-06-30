@@ -11,6 +11,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -29,7 +30,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Homework6 example/solid" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -65,29 +66,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="554" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593469899753">
+    <state x="554" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593503716489">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="554" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1593469899753" />
+    <state x="554" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1593503716489" />
     <state x="580" y="183" key="FileChooserDialogImpl" timestamp="1593454331117">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="183" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1593454331117" />
-    <state width="1556" height="127" key="GridCell.Tab.0.bottom" timestamp="1593470165594">
+    <state width="1556" height="116" key="GridCell.Tab.0.bottom" timestamp="1593504020016">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="127" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1593470165594" />
-    <state width="1556" height="127" key="GridCell.Tab.0.center" timestamp="1593470165594">
+    <state width="1556" height="116" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1593504020016" />
+    <state width="1556" height="116" key="GridCell.Tab.0.center" timestamp="1593504020016">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="127" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1593470165594" />
-    <state width="1556" height="127" key="GridCell.Tab.0.left" timestamp="1593470165594">
+    <state width="1556" height="116" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1593504020016" />
+    <state width="1556" height="116" key="GridCell.Tab.0.left" timestamp="1593504020016">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="127" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1593470165594" />
-    <state width="1556" height="127" key="GridCell.Tab.0.right" timestamp="1593470165594">
+    <state width="1556" height="116" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1593504020016" />
+    <state width="1556" height="116" key="GridCell.Tab.0.right" timestamp="1593504020016">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="127" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1593470165594" />
+    <state width="1556" height="116" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1593504020016" />
   </component>
 </project>

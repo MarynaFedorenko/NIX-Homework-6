@@ -1,13 +1,14 @@
-package nix.service;
+package nix.service.impl;
 
 import nix.data.Patient;
 import nix.service.CabinetService;
 import nix.service.DoctorResponsibilityService;
+import nix.service.DoctorResponsibilityServiceImpl;
 
-public class DoctorService {
+public class DoctorServiceImpl {
 
-    private CabinetService cabinetService = new CabinetService();
-    private DoctorResponsibilityService doctorResponsibilityService = new DoctorResponsibilityService();
+    private CabinetService cabinetService = new CabinetServiceImpl();
+    private DoctorResponsibilityService doctorResponsibilityService = new DoctorResponsibilityServiceImpl();
 
     public void startAppointment(Patient patient){
         cabinetService.isExist();
